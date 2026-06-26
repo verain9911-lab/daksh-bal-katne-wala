@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <title>Your Salon Name — Salon & Spa</title>
-        <meta name="description" content="Your Salon Name — Professional hair, beauty & spa services in [City], India. Book via WhatsApp."></meta>
+        <meta name="description" content="Your Salon Name — Professional hair, beauty & spa services in [City], India. Book via WhatsApp." />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
       </Head>
 
