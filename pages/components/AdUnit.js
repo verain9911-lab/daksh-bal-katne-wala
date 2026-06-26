@@ -5,7 +5,7 @@ export default function AdUnit({ adSlot, adTest = true, style = { margin: '18px 
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({})
     } catch (e) {
-      // console.warn('adsbygoogle push failed', e)
+      // ignore if Ads script isn't ready yet
     }
   }, [adSlot])
 
