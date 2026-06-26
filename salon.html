@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Salon Name — Salon & Spa</title>
+  <meta name="description" content="Your Salon Name — Professional hair, beauty & spa services in [City], India. Book appointments, view services & shop products." />
+  <link rel="icon" href="data:," />
+
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5413818328633857"
+     crossorigin="anonymous"></script>
+
+  <style>
+    :root{
+      --accent:#c04a7b;
+      --accent-dark:#9a3560;
+      --muted:#666;
+      --bg:#faf7fb;
+      --card:#fff;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#111;line-height:1.45}
+    header{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:10}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--accent-dark));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav a{margin-left:16px;color:#333;text-decoration:none;font-weight:600}
+    .cta{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none}
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr;gap:20px;align-items:center;padding:36px 0}
+    .hero-inner{display:flex;flex-direction:column;gap:18px}
+    .hero h1{font-size:28px;margin:0}
+    .hero p{margin:0;color:var(--muted)}
+    .hero .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .cover{border-radius:12px;overflow:hidden;min-height:220px;background:#ddd}
+    .cover img{width:100%;height:100%;object-fit:cover;display:block}
+    /* sections */
+    section{padding:28px 0}
+    h2{margin:0 0 10px 0}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 2px 8px rgba(10,10,10,0.04)}
+    .price{font-weight:700;color:var(--accent-dark)}
+    .product img{width:100%;height:170px;object-fit:cover;border-radius:8px;margin-bottom:10px}
+    .grid{display:grid;gap:12px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+    .gallery img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+    /* booking form */
+    form{display:grid;gap:10px}
+    input, select, textarea{padding:10px;border:1px solid #e6e6e6;border-radius:8px}
+    button{background:var(--accent);color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+    .row{display:flex;gap:10px}
+    .row > *{flex:1}
+    footer{padding:24px 0;color:#666}
+    .small{font-size:13px;color:#888}
+    /* responsive */
+    @media(min-width:800px){
+      .hero{grid-template-columns:1fr 420px}
+      .hero h1{font-size:36px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">S</div>
+        <div>
+          <div style="font-weight:700">DAKSH BAL KATNE WALA</div>
+          <div class="small">Salon & Spa • [City], India</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#book">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-label="Hero">
+      <div class="hero-inner">
+        <h1>Professional Hair, Beauty & Spa Services in [City]</h1>
+        <p>Experienced stylists, premium products, and relaxing spa treatments. Walk-ins welcome — book online or via WhatsApp.</p>
+        <div class="actions">
+          <!-- Replace 91XXXXXXXXXX with your number -->
+          <a class="cta" id="waBookTop" href="https://wa.me/91XXXXXXXXXX?text=Hello%20%2C%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener">Book on WhatsApp</a>
+          <a href="#services" style="padding:10px 14px;background:#fff;border-radius:8px;border:1px solid #eee;text-decoration:none;color:#333">View Services</a>
+        </div>
+      </div>
+      <div class="cover">
+        <img src="https://source.unsplash.com/1600x900/?salon,spa" alt="Salon cover image">
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p class="small">Quality services with hygienic practices. Prices listed are indicative (INR).</p>
+      <div class="cards">
+        <div class="card">
+          <div style="font-weight:700">Women's Haircut</div>
+          <div class="small">Includes wash and styling</div>
+          <div class="price">₹499</div>
+          <div style="margin-top:10px">
+            <button onclick="quickWhatsApp('Women\\'s Haircut (₹499)')">Book</button>
+          </div>
+        </div>
+        <div class="card">
+          <div style="font-weight:700">Men's Haircut</div>
+          <div class="small">Classic barber services</div>
+          <div class="price">₹299</div>
+          <div style="margin-top:10px">
+            <button onclick="quickWhatsApp('Men\\'s Haircut (₹299)')">Book</button>
+          </div>
+        </div>
+        <div class="card">
+          <div style="font-weight:700">Hair Coloring</div>
+          <div class="small">Tints, highlights & balayage</div>
+          <div class="price">From ₹1200</div>
+          <div style="margin-top:10px">
+            <button onclick="quickWhatsApp('Hair Coloring (From ₹1200)')">Book</button>
+          </div>
+        </div>
+        <div class="card">
+          <div style="font-weight:700">Facial & Skin Care</div>
+          <div class="small">Cleanse, exfoliation & mask</div>
+          <div class="price">From ₹799</div>
+          <div style="margin-top:10px">
+            <button onclick="quickWhatsApp('Facial & Skin Care (From ₹799)')">Book</button>
+          </div>
+        </div>
+        <div class="card">
+          <div style="font-weight:700">Bridal Packages</div>
+          <div class="small">Personalized trial & wedding day</div>
+          <div class="price">Custom pricing</div>
+          <div style="margin-top:10px">
+            <button onclick="quickWhatsApp('Bridal Package - Inquiry')">Enquire</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Example ad unit between Services and Products -->
+    <div style="margin:18px 0; text-align:center;">
+      <!-- Replace data-ad-slot with your ad unit ID. Remove data-adtest="on" for production -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-5413818328633857"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"
+           data-adtest="on"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <section id="products">
+      <h2>Products</h2>
+      <p class="small">Genuine, salon-grade products available for purchase (INR).</p>
+
+      <!-- Another example ad inside Products section -->
+      <div style="margin:18px 0; text-align:center;">
+        <!-- Replace data-ad-slot with your ad unit ID. Remove data-adtest="on" for production -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-5413818328633857"
+             data-ad-slot="0987654321"
+             data-ad-format="auto"
+             data-full-width-responsive="true"
+             data-adtest="on"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <div class="cards">
+        <div class="card product">
+          <img src="https://source.unsplash.com/400x400/?shampoo" alt="Product">
+          <div style="font-weight:700">Salon Luxe Shampoo 500ml</div>
+          <div class="price">₹599</div>
+          <div style="margin-top:10px">
+            <button onclick="buyWhatsApp('Salon Luxe Shampoo 500ml (₹599)')">Buy on WhatsApp</button>
+          </div>
+        </div>
+        <div class="card product">
+          <img src="https://source.unsplash.com/400x400/?hair-oil" alt="Product">
+          <div style="font-weight:700">Herbal Hair Oil 200ml</div>
+          <div class="price">₹299</div>
+          <div style="margin-top:10px">
+            <button onclick="buyWhatsApp('Herbal Hair Oil 200ml (₹299)')">Buy on WhatsApp</button>
+          </div>
+        </div>
+        <div class="card product">
+          <img src="https://source.unsplash.com/400x400/?spa,product" alt="Product">
+          <div style="font-weight:700">Glow Facial Kit</div>
+          <div class="price">₹799</div>
+          <div style="margin-top:10px">
+            <button onclick="buyWhatsApp('Glow Facial Kit (₹799)')">Buy on WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="https://source.unsplash.com/400x400/?salon,haircut" alt="">
+        <img src="https://source.unsplash.com/400x400/?spa,massage" alt="">
+        <img src="https://source.unsplash.com/400x400/?manicure" alt="">
+        <img src="https://source.unsplash.com/400x400/?hair-color" alt="">
+        <img src="https://source.unsplash.com/400x400/?bridal-makeup" alt="">
+        <img src="https://source.unsplash.com/400x400/?beauty-spa" alt="">
+      </div>
+    </section>
+
+    <section id="book">
+      <h2>Book an Appointment</h2>
+      <p class="small">Fill the form and we'll open WhatsApp with your booking details.</p>
+      <form id="bookingForm" onsubmit="return sendBooking(event)">
+        <div class="row">
+          <input id="name" name="name" placeholder="Your name" required />
+          <input id="phone" name="phone" placeholder="Phone number (e.g., 9876543210)" required />
+        </div>
+        <div class="row">
+          <select id="service" name="service" required>
+            <option value="">Choose service</option>
+            <option>Women's Haircut</option>
+            <option>Men's Haircut</option>
+            <option>Hair Coloring</option>
+            <option>Facial & Skin Care</option>
+            <option>Bridal Package</option>
+          </select>
+          <input id="date" name="date" type="date" />
+        </div>
+        <textarea id="note" name="note" placeholder="Any notes (allergies, preferences)"></textarea>
+        <button type="submit">Send to WhatsApp</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & Location</h2>
+      <div class="grid">
+        <div class="card">
+          <div style="font-weight:700">Your Salon Name</div>
+          <div class="small">123 Example Street, [Locality], [City], India</div>
+          <div style="margin-top:8px">Phone: <a id="phoneLink" href="tel:+919876543210">+91 98765 43210</a></div>
+          <div style="margin-top:8px">Email: <a href="mailto:hello@yoursalon.com">hello@yoursalon.com</a></div>
+        </div>
+        <div class="card">
+          <div style="font-weight:700;margin-bottom:8px">Find us on the map</div>
+          <!-- Replace the src with a Google Maps embed of your salon -->
+          <iframe src="https://www.google.com/maps?q=New+Delhi&output=embed" style="width:100%;height:220px;border:0;border-radius:8px"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <div>
+          <div style="font-weight:700">Your Salon Name</div>
+          <div class="small">Open: Mon-Sun • 10:00 AM — 8:00 PM</div>
+        </div>
+        <div class="small">© <span id="year"></span> Your Salon Name — All rights reserved</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BeautySalon",
+    "name":"Your Salon Name",
+    "image":"https://source.unsplash.com/800x600/?salon",
+    "telephone":"+91XXXXXXXXXX",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"123 Example Street",
+      "addressLocality":"[City]",
+      "addressRegion":"[State]",
+      "addressCountry":"IN"
+    },
+    "priceRange":"₹₹",
+    "openingHours":"Mo-Su 10:00-20:00"
+  }
+  </script>
+
+  <script>
+    // Update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Replace these with your WhatsApp number (international format without +). Example: 919876543210
+    const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+
+    function encodeMsg(msg){
+      return encodeURIComponent(msg);
+    }
+
+    function quickWhatsApp(item){
+      const msg = `Hello, I want to book: ${item}. Please let me know available slots.`;
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeMsg(msg)}`;
+      window.open(url, '_blank');
+    }
+
+    function buyWhatsApp(item){
+      const msg = `Hello, I want to buy: ${item}. Please confirm price & delivery/pickup details.`;
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeMsg(msg)}`;
+      window.open(url, '_blank');
+    }
+
+    function sendBooking(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const service = document.getElementById('service').value;
+      const date = document.getElementById('date').value;
+      const note = document.getElementById('note').value.trim();
+
+      if(!name || !phone || !service){
+        alert('Please enter name, phone and select a service.');
+        return false;
+      }
+
+      let msg = `Booking request from ${name}%0APhone: ${phone}%0AService: ${service}`;
+      if(date) msg += `%0APreferred date: ${date}`;
+      if(note) msg += `%0ANotes: ${note}`;
+      msg += `%0A%0APlease confirm available slots.`;
+
+      const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
+      window.open(url, '_blank');
+      return false;
+    }
+
+    // Update the top WhatsApp CTA link if you modify the phone
+    (function updateCTAs(){
+      const anchors = document.querySelectorAll('#waBookTop');
+      anchors.forEach(a=>{
+        a.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hello, I want to book an appointment')}`;
+      });
+      // phone link
+      const phoneLink = document.getElementById('phoneLink');
+      if(phoneLink){
+        phoneLink.href = `tel:+${WHATSAPP_NUMBER}`;
+      }
+    })();
+  </script>
+</body>
+</html>
